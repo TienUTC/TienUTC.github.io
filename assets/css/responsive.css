@@ -1,0 +1,190 @@
+/* mobile and tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .navbar__item-logo {
+        margin: 0 auto;
+        transform: translateX(100px);
+    }
+    .slide {
+        margin-left: 100px;
+    }
+    .slide-img {
+        width: 300px;
+        height: 400px;
+    }
+    .description {
+        list-style: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    .description-heading {
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: #7f7f7f;
+        color: #fff;
+    }
+    .description-name {
+        font-size: 4rem;
+        font-style: italic;
+        font-family: Significent;
+        color: #414141;
+        font-weight: 600;
+        color: #fff;
+    }
+    .description-detail {
+        width: 200px;
+        font-size: 1.5rem;
+        color: #7f7f7f;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+    }
+    .description-btn {
+        width: 100px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #ffc368;
+        color: #fff;
+        font-weight: 300;
+        border: none;
+        border-radius: 2px;
+        font-size: 1.2rem;
+    }
+    .main__order-list {
+        width: 100%;
+        left: 0;
+        top: 40%;
+        height: 200px;
+    }
+    .order-item-content {
+        font-size: 1.6rem;
+    }
+    .order-item-heading {
+        width: 100%;
+    }
+    .main__product-list {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .product-image {
+        display: block;
+        width: 100%;
+    }
+    .img-sm {
+        height: 400px;
+    }
+    .product-banner-content > span {
+        font-size: 3rem;
+    }
+    .product-banner-content > a {
+        font-size: 1.5rem;
+    }
+    #right {
+        right: 20%;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
+/* mobile*/
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .header__navbar-list {
+        transform: translateX(-20px);
+    }
+    .navbar__item-logo {
+        margin-left: 120px;
+        transform: translateY(-20px);
+    }
+    .slide {
+        margin-left: 100px;
+    }
+    .slide-img {
+        width: 300px;
+        height: 400px;
+    }
+    .description {
+        width: 100%;
+        transform: translateX(-200px);
+        list-style: none;
+        text-align: center;
+        margin-right: 0;
+    }
+    .description-heading {
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: #7f7f7f;
+        color: #fff;
+    }
+    .description-name {
+        font-size: 3rem;
+        font-style: italic;
+        font-family: Significent;
+        color: #414141;
+        font-weight: 600;
+        color: #fff;
+    }
+    .description-detail {
+        width: 200px;
+        font-size: 1.5rem;
+        color: #7f7f7f;
+        text-align: center;
+        margin: auto;
+        color: #fff;
+    }
+    .description-btn {
+        width: 80px;
+        height: 30px;
+        margin-top: 20px;
+        background-color: #ffc368;
+        color: #fff;
+        font-weight: 300;
+        border: none;
+        border-radius: 2px;
+        font-size: 1rem;
+    }
+    .main__order-list {
+        width: 100%;
+        left: 0;
+        top: 58%;
+        height: 200px;
+    }
+    .product-banner-content > span {
+        font-size: 1.5rem;
+        max-width: 150px;
+        line-height: 2rem;
+        transform: translateY(60px);
+    }
+    .product-banner-content > a {
+        font-size: 1.2rem;
+    }
+    .product-detail {
+        bottom: -25%;
+    }
+    .more-info .content {
+        flex-direction: column;
+    }
+    .payment {
+        flex-direction: column;
+    }
+    .details-info {
+        flex-direction: column;
+    }
+    .form-2 {
+        width: 360px;
+        margin-left: 60px;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-item {
+        text-align: center;
+    }
+}

@@ -1,0 +1,25 @@
+:root{
+    --white-color:#fff;
+    --text-color:#333;
+    
+
+}
+*{
+    box-sizing: inherit
+}
+html{
+    font-size: 62.5%;
+    font-family:'Roboto', sans-serif;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+.back-ground-white{
+    background-color:var(--white-color)!important;
+}
+.btn{
+    background-color: #FFC368;
+    width: 162px;
+    height: 42px;
+    font-size: 1.6rem;
+    color:var(--white-color);
+}
